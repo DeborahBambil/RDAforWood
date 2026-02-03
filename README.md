@@ -21,7 +21,7 @@ This workflow implements **Redundancy Analysis (RDA)** to assess how wood anatom
 2. **Start:**
     $ RDAforWood.py
 
- ![name-of-you-image](https://github.com/DeborahBambil/figs/blob/main/rda_VS.png)
+ ![name-of-you-image](https://github.com/DeborahBambil/figs/blob/main/rdawood.png)
 
 
 
