@@ -1,6 +1,6 @@
  # RDAforWood
 
-**Authors:** Deborah Bambil and Julia Sonsin Oliveira
+**Authors:** Deborah Bambil and Julia Sonsin-Oliveira
 
 ## Statistical Approach: Redundancy Analysis (RDA)
 
