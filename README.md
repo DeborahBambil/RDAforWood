@@ -4,15 +4,13 @@
 
 ## Statistical Approach: Redundancy Analysis (RDA)
 
-This workflow implements **Redundancy Analysis (RDA)** to assess how wood anatomical features (cell dimensions and tissue proportions) explain variations in physical properties (density, shrinkage, and anisotropy).
+This workflow implements **Redundancy Analysis (RDA)** to assess how wood anatomical features (cell dimensions and tissue proportions) explain variations in physical properties (density, shrinkage, and anisotropy)
 
 ### Key Features:
-* **Multivariate Integration:** Combines PCA with multiple linear regression to determine the variance proportion explained by predictors.
-* **Data Pre-processing:** * **CLR Transformation:** Applied to compositional data (tissue proportions) to handle unit sum constraints.
-    * **Standardization:** All variables are Z-score scaled for comparability across different units.
-* **Model Robustness:** * **VIF Stepwise:** Automatic exclusion of multicollinear variables to prevent model inflation.
-    * **Feature Weighting:** Specialized treatment for unique taxa traits (e.g., *Emmotum nitens*) via weighted averages to maintain model balance.
-* **Tech Stack:** Built with **Python** using `Scikit-learn`, `Pandas`, `Numpy`, and `Seaborn`.
+* **Multivariate Integration:** Combines PCA with multiple linear regression to determine the variance proportion explained by predictors
+* **Data Pre-processing:** * **CLR Transformation:** Applied to compositional data (tissue proportions) to handle unit sum constraints
+    * **Standardization:** All variables are Z-score scaled for comparability across different units
+* **Tech Stack:** Built with **Python** using `Scikit-learn`, `Pandas`, `Numpy`, and `Seaborn`
 
 ## Installation
 
