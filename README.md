@@ -8,8 +8,9 @@ This workflow implements **Redundancy Analysis (RDA)** to assess how wood anatom
 
 ### Key Features:
 * **Multivariate Integration:** Combines PCA with multiple linear regression to determine the variance proportion explained by predictors
-* **Data Pre-processing:** * **CLR Transformation:** Applied to compositional data (tissue proportions) to handle unit sum constraints
-    * **Standardization:** All variables are Z-score scaled for comparability across different units
+* **Data Pre-processing:**
+* * **CLR Transformation:** Applied to compositional data (tissue proportions) to handle unit sum constraints
+* **Standardization:** All variables are Z-score scaled for comparability across different units
 * **Tech Stack:** Built with **Python** using `Scikit-learn`, `Pandas`, `Numpy`, and `Seaborn`
 
 ## Installation
