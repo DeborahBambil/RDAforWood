@@ -1,6 +1,5 @@
- ![name-of-you-image](https://github.com/DeborahBambil/figs/blob/main/Fig1.png?raw=true](https://github.com/DeborahBambil/figs/blob/main/rda_VS.png)
-
-# RDAforWood
+ ![name-of-you-image](https://github.com/DeborahBambil/figs/blob/main/rda_VS.png)
+ # RDAforWood
 
 **Authors:** Deborah Bambil and Julia Sonsin Oliveira
 
@@ -18,7 +17,7 @@ This workflow implements **Redundancy Analysis (RDA)** to assess how wood anatom
 
 ## Installation
 
-1. **Install Dependencies on Ubuntu:**
+1. **Install Dependencies on Win:**
    $ py -m pip install pandas numpy matplotlib seaborn scikit-learn statsmodels scikit-bio
 
 2. **Start:**
