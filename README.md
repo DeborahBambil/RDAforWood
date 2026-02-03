@@ -4,7 +4,12 @@
 
 ## Statistical Approach: Redundancy Analysis (RDA)
 
-This workflow implements **Redundancy Analysis (RDA)** to assess how wood anatomical features (cell dimensions and tissue proportions) explain variations in physical properties (density, shrinkage, and anisotropy)
+This workflow implements **Redundancy Analysis (RDA)** to assess how wood anatomical features explain variations in physical properties. 
+
+### Data Input Format:
+The tool processes data from a **.txt (tab-separated)** file. For the analysis to run correctly:
+* **Dependent Variables:** The initial columns must represent the response variables 
+* **Independent Variable:** The final column must represent the explanatory variable
 
 ### Key Features:
 * **Multivariate Integration:** Combines PCA with multiple linear regression to determine the variance proportion explained by predictors
